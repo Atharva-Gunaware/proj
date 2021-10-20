@@ -1,0 +1,88 @@
+#score{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family:cursive;
+}
+#timer{
+    float: right;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+body{
+    background-color: greenyellow;
+}
+h1{
+    background-color: cornsilk;
+    color: rgb(38,0,255);
+    font-family:cursive;
+    text-align: center;
+}
+#show_sketch{
+    float: right;
+    margin-right: 10px;
+}
+p{
+    font-family: cursive;
+    font-size: 25px;
+    color: black;
+}
+#sketch_to_be_drawn{
+    font-family: cursive;
+    font-size: 25px;
+    color: red;
+}
+
+canvas 
+  {
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:80px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px red;}
+  to {box-shadow: 1px 1px 38px rgb(28, 153, 202);}
+
+}
+
+#bu{
+        bottom: 0%;
+        margin-top: 420px;
+        text-align: center;
+        margin-left: 630px;
+      }
+
+      #footer{
+        bottom: 0px;
+        font-size: 20px;
+        position: fixed;
+        background-color: rgb(54, 201, 169);
+        margin-bottom: 30px;
+        text-align: center;
+        width: 100%;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        animation-name: example2;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+       }
+
+@keyframes example2{
+        to{
+            background-color: rgb(250, 152, 24);
+            color: teal;
+            box-shadow: 10px 10px 15px turquoise;
+        }
+    
+        from{
+            background-color:teal;
+            color: yellow;
+            box-shadow: 10px 10px 15px lightcoral; 
+        }
+       }
